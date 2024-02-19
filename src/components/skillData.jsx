@@ -1,43 +1,43 @@
 export default[
     {
        language:"JavaScript", 
-       image: "../public/images/js.png"
+       image: "./images/js.png"
     },
     {
         language:"HTML", 
-        image: "../public/images/html.png"
+        image: "./images/html.png"
     },
     {
         language:"CSS", 
-        image: "../public/images/css.png"
+        image: "./images/css.png"
     },
     {
         language:"React", 
-        image: "../public/images/react.png"
+        image: "./images/react.png"
     },
     {
         language:"JAVA", 
-        image: "../public/images/java.png"
+        image: "./images/java.png"
     },
     {
         language:"Node", 
-        image: "../public/images/node.png"
+        image: "./images/node.png"
     },
     {
         language:"Mongo", 
-        image: "../public/images/mongo.svg"
+        image: "./images/mongo.svg"
     },
     {
         language:"MySQL", 
-        image: "../public/images/mysql.png"
+        image: "./images/mysql.png"
     },
     {
         language:"GIT", 
-        image: "../public/images/git.png"
+        image: "./images/git.png"
     },
     {
         language:"Figma", 
-        image: "../public/images/figma.webp"
+        image: "./images/figma.webp"
     },
     
 ]
