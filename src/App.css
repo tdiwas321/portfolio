@@ -4,7 +4,6 @@
   --black: #000000;
   --grey: #e5e5e5;
   --blue: #14213d;
-
 }
 
 body {
@@ -341,7 +340,7 @@ a {
 }
 
 /******************WORK SECTION CSS***************/
-.workeducation{
+.workeducation {
   min-height: 100vh;
   max-width: 100%;
   background-color: var(--black);
@@ -1103,140 +1102,144 @@ li {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
-@keyframes animStar{
-  from{
+@keyframes animStar {
+  from {
     transform: translateY(-2000px);
   }
-  to{
+  to {
     transform: translateY(0px);
   }
 }
 
-@media (max-width:480px ) {
-  .headerItemsContainer{
+@media (max-width: 800px) {
+  .headerItemsContainer {
     justify-content: center;
   }
-  .heroContainer{
+  .heroContainer {
     flex-direction: column;
     gap: 2rem;
   }
-  .sectionTwo{
+  .sectionTwo {
     max-width: 100%;
   }
-  .sectionTwoTextContainer{
+  .sectionTwoTextContainer {
     margin-inline: 10%;
     font-size: 1.5rem;
   }
 
-  .sectionOne h1{
+  .sectionOne h1 {
     font-size: 3rem;
+    text-align: center;
   }
 
-  .sectionOne h3{
+  .sectionOne h3 {
     font-size: 1.5rem;
+    text-align: center;
   }
-  .projectContainer h1{
+  .projectContainer h1 {
     font-size: 2rem;
   }
-
-  .projectContainer{
+  .socialsContainer {
+    display: flex;
     justify-content: center;
   }
-  .projectBox{
+  .projectContainer {
+    justify-content: center;
+  }
+  .projectBox {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
   }
 
-  .projectBox img{
+  .projectBox img {
     max-width: 80%;
   }
-  .pDescription h2{
+  .pDescription h2 {
     font-size: 1rem;
     max-width: 100%;
     text-align: center;
   }
-  .pDescription{
+  .pDescription {
     max-width: 80%;
   }
-  .pDescription p{
+  .pDescription p {
     font-size: 0.75rem;
     text-align: center;
     max-width: 100%;
   }
-  .pLanguage{
+  .pLanguage {
     max-width: 100%;
     justify-content: center;
   }
-  .projects{
+  .projects {
     display: grid;
     margin-inline: auto;
-
   }
 
-  .workContainer{
+  .workContainer {
     flex-direction: column;
     max-width: 100%;
   }
 
-  .education h2{
+  .education h2 {
     text-align: center;
   }
-  .eduimg{
+  .eduimg {
     width: 100%;
     padding-top: 30%;
   }
 
-  .educationContainer{
+  .educationContainer {
     justify-content: space-evenly;
   }
 
-  .education{
+  .education {
     height: 100%;
   }
-  .eduUl{
+  .eduUl {
     padding: 0;
   }
-  .eduItem{
+  .eduItem {
     justify-content: center;
     font-size: 0.8rem;
     margin-inline: auto;
   }
 
-  .skills{
+  .skills {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .skillBlock h1{
+  .skillBlock h1 {
     font-size: 0.7rem;
   }
 
-  .skillimg{
+  .skillimg {
     max-height: 30px;
   }
-  .contactContainer{
+  .contactContainer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .contactOne h1{
+  .contactOne h1 {
     font-size: 1.5rem;
     max-width: 70%;
   }
 
-  .contactOne h3{
+  .contactOne h3 {
     font-size: 0.8rem;
   }
 
-  .footer{
+  .footer {
     font-size: 0.7rem;
     padding: 1rem;
   }
 
-  .sectionTwoTextContainer{
+  .sectionTwoTextContainer {
     text-align: center;
   }
 }
