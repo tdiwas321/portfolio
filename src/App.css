@@ -370,6 +370,7 @@ a {
 
 .bold {
   font-weight: bold;
+  color: var(--orange);
 }
 
 ul {

@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import eduimg from "../../public/images/edu.svg"
+import eduimg from "../../public/images/edu.svg";
 export default function Work() {
   return (
     <div className="workContainer">
       <div className="experienceContainer">
         <div className="experience">
-          <h1 className="orangeSpan">
-            WORK EXPERIENCE : <span className="whiteSpan">{"{"}</span>
+          <h1 className="whiteSpan">
+            WORK EXPERIENCE : <span className="orangeSpan">{"{"}</span>
           </h1>
           <div className="experienceDesc">
             <ul>
@@ -37,26 +37,18 @@ export default function Work() {
               </li>
             </ul>
           </div>
-          <h1 className="orangeSpan">
-            <span className="whiteSpan">{"}"}</span>
-          </h1>
+          <h1 className="orangeSpan">{"}"}</h1>
         </div>
       </div>
       <div className="educationContainer">
         <div className="education">
-          <h1 className="blueSpan">
-            EDUCATION
-          </h1>
+          <h1 className="blueSpan">EDUCATION</h1>
           <h2 className="orangeSpan">Islington College Kathmandu</h2>
           <ul>
-            <li>
-                BSc(Hons) COMPUTING
-            </li>
-            <li >
-                DEC 2020 - DEC 2023
-            </li>
+            <li>BSc(Hons) COMPUTING</li>
+            <li>DEC 2020 - DEC 2023</li>
           </ul>
-          <img className="eduimg" src={eduimg}/>
+          <img className="eduimg" src={eduimg} />
         </div>
       </div>
     </div>
