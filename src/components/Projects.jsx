@@ -6,7 +6,6 @@ import nodeLogo from "../../public/images/node.png";
 import figmaLogo from "../../public/images/figma.webp";
 import mongoLogo from "../../public/images/mongo.svg";
 
-
 export default function Projects() {
   return (
     <div className="projectContainer">
@@ -16,7 +15,9 @@ export default function Projects() {
       </h1>
       <div className="projects">
         <div className="projectBox">
-          <img src={ppbs} />
+          <a href="https://github.com/tdiwas321/final">
+            <img className="projectImg"src={ppbs} />
+          </a>
           <div className="pDescription">
             <h2>PARTY PALACE BOOKING SYSTEM</h2>
             <div className="pLanguage">
@@ -31,7 +32,9 @@ export default function Projects() {
           </div>
         </div>
         <div className="projectBox">
-          <img src={tj} />
+          <a href="https://github.com/tdiwas321/scrimbatraveljourney">
+            <img className="projectImg" src={tj} />
+          </a>
           <div className="pDescription">
             <h2>TRAVEL JOURNAL</h2>
             <div className="pLanguage">
@@ -44,7 +47,9 @@ export default function Projects() {
           </div>
         </div>
         <div className="projectBox">
-          <img src={UI} />
+          <a href="https://www.figma.com/file/lMwx5LWCnd09L7LWlrI3gr/portfolio?type=design&node-id=3%3A2&mode=design&t=UrSxjam6JHJjOnNs-1">
+            <img className="projectImg" src={UI} />
+          </a>
           <div className="pDescription">
             <h2>UI/UX</h2>
             <div className="pLanguage">

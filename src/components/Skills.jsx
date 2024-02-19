@@ -28,7 +28,7 @@ export default function Skills() {
                 tdiwas321@gmail.com
             </h3>
         </div>
-        <button  className="contactButton">CONTACT ME</button>
+        <a href="mailto:tdiwas321@gmail.com"><button className="contactButton">CONTACT ME</button></a>
       </div>
     </div>
   );

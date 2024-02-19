@@ -9,14 +9,18 @@ export default function Hero() {
         <h1>DIWAS THAPA</h1>
         <h3>Full-Stack Developer</h3>
         <div className="socialsContainer">
-          <img src={githubLogo} />
-          <img src={linkedinLogo} />
+          <a href="https://github.com/tdiwas321">
+            <img src={githubLogo} />
+          </a>
+          <a href="https://www.linkedin.com/in/diwas-thapa-1048b9163/">
+            <img src={linkedinLogo} />
+          </a>
         </div>
       </div>
       <div className="sectionTwo">
         <div className="sectionTwoTextContainer">
           React developer dedicated to crafting seamless web experiences.
-          <br/>
+          <br />
           <span className="orangetxt">Let's innovate together!</span>
         </div>
       </div>
