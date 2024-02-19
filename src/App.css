@@ -20,8 +20,7 @@ a {
   text-decoration: none;
 }
 
-/*****************HEADER SECTION CSS **********/
-
+/*****************HEADER SECTION CSS *********/
 .headerItemsContainer {
   display: flex;
   flex-direction: row;
