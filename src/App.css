@@ -8,7 +8,6 @@
 
 body {
   margin: 0;
-  /* background-color: var(--white); */
   background: linear-gradient(
     to top right,
     rgba(252, 163, 17, 0.1),
@@ -341,13 +340,16 @@ a {
 }
 
 /******************WORK SECTION CSS***************/
-
-.workContainer {
-  display: flex;
-  flex-direction: row;
+.workeducation{
   min-height: 100vh;
   max-width: 100%;
   background-color: var(--black);
+}
+.workContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 75%;
+  margin-inline: auto;
 }
 
 .experienceContainer {
@@ -355,6 +357,7 @@ a {
 }
 .experience {
   padding: 10%;
+  margin-inline: auto;
 }
 .whiteSpan {
   color: var(--white);
@@ -366,6 +369,7 @@ a {
 
 .experience h1 {
   margin: 0;
+  text-align: center;
 }
 
 .bold {
@@ -398,6 +402,7 @@ li {
   flex: 1;
   min-height: 100vh;
   border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
 }
 
 .education {
@@ -408,6 +413,7 @@ li {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  margin-inline: auto;
 }
 
 .education h2 {
