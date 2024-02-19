@@ -1235,4 +1235,8 @@ li {
     font-size: 0.7rem;
     padding: 1rem;
   }
+
+  .sectionTwoTextContainer{
+    text-align: center;
+  }
 }
