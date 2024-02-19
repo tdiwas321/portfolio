@@ -12,6 +12,7 @@ body {
   background:linear-gradient(to top right, rgba(252, 163, 17,0.1), var(--white));
   font-family: "Istok Web", sans-serif;
   height: 100vh;
+  cursor: default;
 }
 
 a {
