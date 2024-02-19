@@ -85,6 +85,11 @@ a {
   align-items: center;
   min-height: 90vh;
   padding: 0;
+  margin-bottom: -10px;
+}
+
+.projectContainer{
+  margin-top: -20px;
 }
 
 .socialsContainer img:hover {
@@ -1147,6 +1152,9 @@ li {
   .sectionOne h3 {
     font-size: 1.5rem;
     text-align: center;
+  }
+  .projectContainer{
+    margin-top: -20px;
   }
   .projectContainer h1 {
     font-size: 2rem;
