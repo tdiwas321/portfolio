@@ -259,10 +259,10 @@ a {
   max-width: 100%;
   background-color: var(--black);
   padding-block: 2rem;
-  background-image: url("../public/images/projectsvg.png");
+  /* background-image: url("../public/images/projectsvg.png");
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: 800px;
+  background-size: 800px; */
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -393,11 +393,21 @@ li{
   flex: 1;
   min-height: 100vh;
   border-top-left-radius: 40%;
+
 }
 
 .education{
   padding: 10%;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.education h2{
+  margin: 0;
 }
 
 .blueSpan{
@@ -428,6 +438,9 @@ li{
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .skillimg{
@@ -470,16 +483,15 @@ li{
   display: flex;
   flex-direction: row;
   max-width: 100%;
-  justify-content: space-between;
-  padding-inline: 10%;
+  justify-content: center;
+  gap: 20%;
+  align-items: center;
   padding-block: 5%;
 }
 
-.contactOnce{
+.contactOne{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .contactButton{
@@ -510,6 +522,10 @@ li{
 
 .footer{
   text-align: center;
-  background-color: var(--orange);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--grey);
+  padding: 2rem;
+  border-top: solid;
+  border-width: 2px;
+  border-color: var(--orange);
 }
