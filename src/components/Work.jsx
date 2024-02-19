@@ -47,9 +47,9 @@ export default function Work() {
           <div className="education">
             <h1 className="blueSpan">EDUCATION</h1>
             <h2 className="orangeSpan">Islington College Kathmandu</h2>
-            <ul>
-              <li>BSc(Hons) COMPUTING</li>
-              <li>DEC 2020 - DEC 2023</li>
+            <ul className="eduUl">
+              <li className="eduItem">BSc(Hons) COMPUTING</li>
+              <li className="eduItem">DEC 2020 - DEC 2023</li>
             </ul>
             <img className="eduimg" src={eduimg} />
           </div>
