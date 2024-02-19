@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import datas from "../components/skillData";
@@ -18,6 +19,16 @@ export default function Skills() {
       <div className="skilled">
         <h1 className="orangeSpan">SKILLS</h1>
         <div className="skills">{renderSkills}</div>
+      </div>
+      <div className="contactContainer">
+        <div className="contactOne">
+            <h1 className="orangeSpan">Let's connect and collaborate – drop me a line!</h1>
+            <h3>
+                +977 9814030951<br/>
+                tdiwas321@gmail.com
+            </h3>
+        </div>
+        <button  className="contactButton">CONTACT ME</button>
       </div>
     </div>
   );

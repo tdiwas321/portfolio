@@ -463,3 +463,53 @@ li{
   margin: 0;
   font-size: 16px;
 }
+
+/******CONTACT SECTION CSS***/
+
+.contactContainer{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-inline: 10%;
+  padding-block: 5%;
+}
+
+.contactOnce{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactButton{
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+  height: 4rem;
+  width: 10rem;
+  color: var(--black);
+  background-color: #fca311;
+  border-style: none;
+  border-radius: 2%;
+  transition: 300ms;
+  align-self: center;
+}
+
+.contactButton:hover{
+  background-color: var(--white);
+  color: var(--blue);
+  border-radius: 10%;
+  transition: 300ms;
+}
+
+.contactOne h1{
+  max-width: 500px;
+}
+
+/********FOOTER CSS**********/
+
+.footer{
+  text-align: center;
+  background-color: var(--orange);
+  color: var(--black);
+}
